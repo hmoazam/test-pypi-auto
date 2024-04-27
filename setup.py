@@ -6,10 +6,8 @@ with open('README.md', encoding='utf-8') as f:
 
 setuptools.setup(
     name="test_pkg_hmoazam",
-    version="0.0.0",
+    version="0.0.3",
     author="Hanna",
     description="Do not use",
-    long_description_content_type="text/markdown",
-    long_description=long_description,
     packages=["test_pkg_hmoazam"]
 )
